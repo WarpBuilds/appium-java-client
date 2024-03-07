@@ -33,7 +33,7 @@ jobs:
       matrix:
         include:
           - java: 17
-            platform: warp-ubuntu-latest-x64-4x
+            platform: ec2-m7gd
             e2e-tests: android
       fail-fast: false
 
