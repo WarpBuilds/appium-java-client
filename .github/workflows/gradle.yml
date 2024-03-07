@@ -33,7 +33,7 @@ jobs:
       matrix:
         include:
           - java: 17
-            platform: ec2-m7gd
+            platform: ec2-m7a
             e2e-tests: android
       fail-fast: false
 
