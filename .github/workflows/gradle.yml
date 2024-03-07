@@ -70,7 +70,7 @@ jobs:
 
     - name: Install UIA2 driver
       if: matrix.e2e-tests == 'android'
-      run: appium driver install uiautomator2
+      run: appium driver install uiautomator2 || true
       
     # - name: Enable KVM
     #   run: |
